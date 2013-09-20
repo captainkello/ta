@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @prospect.email %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @prospect.name %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @prospect.body %>
+</p>
+
+<%= link_to 'Edit', edit_prospect_path(@prospect) %> |
+<%= link_to 'Back', prospects_path %>
